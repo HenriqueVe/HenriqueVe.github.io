@@ -1,0 +1,28 @@
+/* CSS */
+
+body {
+  font-size: 1.5em;
+  background-image: url(./dark-souls-sen-s-fortress-midnight-cover-r3kmsq1hcnytrhxw.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.primeira-classe {
+  font-size: 1.5em;
+}
+
+.segunda-classe {
+  color: #ffffff;
+  text-align: center;
+}
+
+#GRUPO_1 {
+  height: 30%
+}
+
+#GRUPO_2 {
+  width: 200px;
+  margin: 0 auto;
+  border: 3px solid #000
+}
