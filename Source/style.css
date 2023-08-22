@@ -1,28 +1,28 @@
 /* CSS */
 
 body {
-
-  background-color: #1B0044;
-  font-family: Arial;
+  display: block;
+  background-color: white;
+  font-family:'Times New Roman', Times, serif;
   
 }
 
 .titlecolor {
-  color: #D6C5F0;
+  color: black;
 }
 
 .lettercolor {
-  color: #E5B8F4;
-  text-align: center;
+  color: black;
   font-size: 25px;
 
 }
+
 
 #GRUPO_1 {
   height: 30%;
 }
 
-#GRUPO_2 {
+#borde {
   width: 200px;
   margin: 0 auto;
   border: 3px solid #000;
@@ -39,4 +39,20 @@ body {
 a {
 
 text-decoration: none;
+}
+
+.pad {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+
+.marg {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+
 }
