@@ -1,9 +1,9 @@
 /* CSS */
 
 body {
-  display: block;
+  display:inline-block;
   background-color: white;
-  font-family:'Times New Roman', Times, serif;
+  font-family:'Franklin Gothic Medium';
   
 }
 
@@ -31,9 +31,8 @@ body {
   background-color: #5E809A;
 }
 
-.textalign {
-  text-align: center;
-
+.first-line{
+  padding-left: 1em;
 }
 
 a {
@@ -56,3 +55,68 @@ text-decoration: none;
   margin-left: 80px;
 
 }
+
+
+.botton-group{
+  align-items: center;
+  display: block;
+}
+
+.center{
+  padding: 10px;
+  margin: auto;
+  width: 100%;
+}
+
+.botton-group .botao{
+margin-left: 190px;
+margin-right: 190px;
+}
+
+.botao{
+  border: solid 1px white;
+  border-radius: 20px;
+  color: gray;
+  background-color: white;
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.botao:hover{
+  background-color: gray;
+  color: white;
+  transform: scale(1.2)
+}
+
+.cor2 {
+color:gray;
+font-size: smaller;
+}
+
+.mar{
+margin-bottom:0px;
+}
+
+.font2{
+  font-size: large;
+}
+
+.mar2{
+  margin-top: 48px;
+  }
+
+  .margemgeral{
+    margin-left: 90px;
+
+  }
+
+  .borde{
+    border-left: 3px solid black;
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 100%;
+  }
+
+  .font2{
+
+    font-family:'Times New Roman', Times, serif;
+    color: gray;
+  }
