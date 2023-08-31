@@ -100,7 +100,8 @@ margin-bottom:0px;
 }
 
 .mar2{
-  margin-top: 48px;
+  margin-top: 10px;
+  margin-bottom: 0px;
   }
 
   .margemgeral{
@@ -125,6 +126,19 @@ margin-bottom:0px;
     padding-left: 14px;
     padding-right: 14px;
     width: 10%;
+  border-radius: 10px;
+  }
+
+  .borde3{
+    background-color: gainsboro;
+    border-left: 3px solid gainsboro;
+    border-top: 3px solid gainsboro;
+    border-right: 3px solid gainsboro;
+    border-bottom: 3px solid gainsboro;
+    margin-right: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 100%;
   border-radius: 10px;
   }
 
