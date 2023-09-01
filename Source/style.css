@@ -4,6 +4,8 @@ body {
   display:inline-block;
   background-color: white;
   font-family:'Franklin Gothic Medium';
+  padding: 0px;
+  margin: 0px;
   
 }
 
@@ -74,15 +76,15 @@ margin-right: 190px;
 }
 
 .botao{
-  border: solid 1px white;
+  border: solid 1px black;
   border-radius: 20px;
-  color: gray;
-  background-color: white;
+  color: white;
+  background-color: black;
   transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
 }
 .botao:hover{
-  background-color: gray;
-  color: white;
+  background-color: white;
+  color: black;
   transform: scale(1.2)
 }
 
@@ -130,16 +132,15 @@ margin-bottom:0px;
   }
 
   .borde3{
-    background-color: gainsboro;
-    border-left: 3px solid gainsboro;
-    border-top: 3px solid gainsboro;
-    border-right: 3px solid gainsboro;
-    border-bottom: 3px solid gainsboro;
-    margin-right: 200px;
-    padding-left: 200px;
-    padding-right: 200px;
+    background-color: black;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
     width: 100%;
-  border-radius: 10px;
+    margin-right: 200px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
 
