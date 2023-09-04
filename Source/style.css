@@ -119,11 +119,11 @@ margin-bottom:0px;
   }
 
   .borde2{
-    background-color: gainsboro;
-    border-left: 3px solid gainsboro;
-    border-top: 3px solid gainsboro;
-    border-right: 3px solid gainsboro;
-    border-bottom: 3px solid gainsboro;
+    background-color: #ebebeb;
+    border-left: 3px solid #ebebeb;
+    border-top: 3px solid #ebebeb;
+    border-right: 3px solid #ebebeb;
+    border-bottom: 3px solid #ebebeb;
     margin-right: 200px;
     padding-left: 14px;
     padding-right: 14px;
@@ -137,6 +137,18 @@ margin-bottom:0px;
     border-top: 3px solid black;
     border-right: 3px solid black;
     border-bottom: 3px solid black;
+    width: 100%;
+    margin-right: 200px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .borde4{
+    background-color: #ebebeb;
+    border-left: 3px solid #ebebeb;
+    border-top: 3px solid #ebebeb;
+    border-right: 3px solid #ebebeb;
+    border-bottom: 3px solid #ebebeb;
     width: 100%;
     margin-right: 200px;
     padding-left: 0px;
