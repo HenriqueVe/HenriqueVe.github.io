@@ -110,6 +110,11 @@ margin-bottom:0px;
     margin-left: 90px;
 
   }
+  
+  .margemgeral1{
+    margin-left: 90px;
+    margin-right: 90px;
+  }
 
   .borde{
     border-left: 3px solid black;
@@ -329,4 +334,95 @@ margin-bottom:0px;
 
 .yt874t{
   margin-bottom: 0px;
+}
+
+footer {
+  background-color: rgb(63, 60, 60);
+  height: 30px;
+  color: white;
+  align-items: center;
+}
+
+  /* body{
+            margin: 100px;
+        } */
+        
+.card {
+  border-radius: 3px;
+  box-shadow: rgba(15, 15, 15, 0.1) 0px 0px 0px 1px, rgba(15, 15, 15, 0.1) 0px 2px 4px;
+  display: flex;
+  flex-direction: column;
+  transition: background 100ms ease-out 0s;
+  position: static;
+ 
+  /*  box-sizing: border-box; */
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+  height: 100%;
+  font-size: 16px;
+  color:black;
+  line-height: 1.5;
+}
+
+.card img{
+  align-self: center;
+  /* position:relative; */
+  width: fit-content;
+  min-height: 50px;
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card.title {
+
+  width: 100%;
+  display: flex;
+  padding: 8px 10px 6px;
+  position: relative;
+
+}
+
+.card span{
+  font-size: 12px;
+  margin: 10px;
+  padding: 5px;
+}
+
+
+.badges-content{
+      position: relative;
+      display: flex;
+      overflow: hidden;
+      align-items: center;
+      border-radius: 5px;
+      margin: 0px 6px 2px;
+      padding: 0px 5px;
+      font-size: 12px;
+      min-height: 24px;
+      white-space: nowrap;
+      width: fit-content;
+
+}
+
+.badget{
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+      min-width: 0px;
+      max-width: 100%;
+      height: 18px;
+      border-radius: 3px;
+      padding-left: 6px;
+      padding-right: 6px;
+      font-size: 12px;
+      line-height: 120%;
+      color: rgb(93, 23, 21);
+      background: rgb(255, 226, 221);
+      margin: 0px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
 }

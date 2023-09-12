@@ -5,3 +5,25 @@
     width: 100%;
     margin-left: 0px;
   }
+
+  body {
+    font-family: 'OD Open Sans', sans-serif, arial;
+  }
+
+  #artigo1 {
+    float: left;
+    margin-right: 25px;
+  }
+
+  p {
+    text-align: justify; 
+    font-size: 14pt; 
+    color: #555;
+  }
+
+  footer p{
+    color: white !important;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  
