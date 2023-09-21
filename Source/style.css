@@ -471,7 +471,7 @@ footer {
 .card-container {
   display: flex;
   gap: 20px;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 
