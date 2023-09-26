@@ -10,7 +10,7 @@
     font-family: 'OD Open Sans', sans-serif, arial;
   }
 
-  #artigo1 {
+  #artigos {
     float: left;
     margin-right: 25px;
   }
@@ -185,4 +185,250 @@ section p.justify {
     align-items: center;
     flex-wrap: wrap;
     align-content: center;
+}
+
+/* reset */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "Lato", sans-serif;
+    background-color: #f0f0f0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header {
+    top: 0;
+    background-color: black;
+    color: white;
+    /* height: 50px; */
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: block;
+}
+
+nav {
+    overflow: hidden;
+    width: 100%;
+    box-sizing: inherit;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: rgba(255, 255, 255, 0.812);
+    text-decoration: solid;
+}
+
+.button-vls {
+    text-align: center;
+    white-space: normal;
+}
+
+.nav-items-vls {
+    padding: 8px 16px;
+    width: auto;
+    border: none;
+    /* outline: 0; */
+}
+
+.card-vls {
+    border-radius: 0px;
+    background-color: black;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+        0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.to-right-vls {
+    float: right !important;
+}
+
+.to-left-vls {
+    float: left !important;
+}
+
+
+.padding-large {
+    padding: 12px 24px !important;
+}
+
+.content-vls {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 2000px;
+    margin-top: 46px
+}
+
+.container-vls {
+    padding: 0.01em 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.padding-64 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important
+}
+
+.wide-vls {
+    letter-spacing: 4px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.opacity-vls {
+    opacity: 0.60;
+}
+
+.justify-vls {
+    text-align: justify;
+}
+
+.center-vls {
+    text-align: center;
+}
+
+.padding-32 {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+}
+
+section {
+    max-width: 800px;
+    box-sizing: inherit;
+}
+
+section p.justify-vls {
+    width: auto;
+    margin: auto;
+    padding: 10px 100px 10px 100px;
+}
+
+#inicio {
+    margin-top: 50px;
+}
+
+.black-ground {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    margin-top: 0;
+    background-color: gainsboro;
+    font-size: 10px;
+}
+
+.cardBox-vls {
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    max-width: 300px;
+    max-height: 200px;
+    text-align: center;
+    flex-shrink: 1;
+}
+
+
+.btn-card-vls {
+    background-color: black;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.black-ground .cardBox-vls {
+    background-color: white;
+    color: black;
+}
+
+.btn-card-vls:hover {
+    background-color: inherit;
+    color: inherit;
+}
+
+.card-container-vls {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    font-size: 1.7em;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+footer p{
+    padding-top: 15px;
+}
+
+footer.content-vls {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 2000px;
+    margin-top: 0px;
+}
+
+section.cardBox-vls {
+    background-color: white;
+    color: black;
+}
+
+#carousel-teste .container-vls {
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#carousel-teste .container-fluid-vls {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+}
+
+#carousel-test.container-vls {
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
 }
