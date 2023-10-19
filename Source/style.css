@@ -6,7 +6,10 @@ body {
   font-family:'Franklin Gothic Medium';
   padding: 0px;
   margin: 0px;
-  
+  width: auto;
+  border-right-width: 0px;
+  border-left-width: 0px;
+
 }
 
 .titlecolor {
@@ -65,7 +68,7 @@ text-decoration: none;
 }
 
 .center{
-  padding: 10px;
+  padding-bottom: 10px;
   margin: auto;
   width: 100%;
 }
@@ -136,16 +139,14 @@ margin-bottom:0px;
   border-radius: 10px;
   }
 
-  .borde3{
+  .header {
     background-color: black;
-    border-left: 3px solid black;
-    border-top: 3px solid black;
-    border-right: 3px solid black;
-    border-bottom: 3px solid black;
-    width: max-content;
     margin-right: 0px;
     padding-left: 0px;
     padding-right: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .borde4{
