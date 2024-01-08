@@ -6,10 +6,9 @@ body {
   font-family:'Franklin Gothic Medium';
   padding: 0px;
   margin: 0px;
-  width: auto;
+  width: 100%;
   border-right-width: 0px;
   border-left-width: 0px;
-
 }
 
 .titlecolor {
@@ -64,18 +63,15 @@ text-decoration: none;
 
 .botton-group{
   align-items: center;
-  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .center{
   padding-bottom: 10px;
   margin: auto;
   width: 100%;
-}
-
-.botton-group .botao{
-margin-left: 190px;
-margin-right: 190px;
 }
 
 .botao{
@@ -145,8 +141,8 @@ margin-bottom:0px;
     padding-left: 0px;
     padding-right: 0px;
     width: 100%;
-    display: flex;
     flex-wrap: wrap;
+    box-sizing: inherit;
   }
 
   .borde4{
@@ -371,8 +367,8 @@ footer {
   /* position:relative; */
   width: fit-content;
   min-height: 50px;
-  max-width: 100%;
-  max-height: 200px;
+  max-width: 70%;
+  max-height: 170px;
   border-radius: 10px;
   padding: 10px;
 }

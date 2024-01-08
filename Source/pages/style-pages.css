@@ -132,6 +132,8 @@ footer {
 
 .container {
     padding: 0.01em 16px;
+    padding-left: 0px;
+    padding-right: 0px;
     justify-content: center;
     align-items: center;
 }
