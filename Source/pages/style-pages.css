@@ -4,7 +4,6 @@
     padding-right: 0px;
     width: 100%;
     margin-left: 0px;
-<<<<<<< HEAD
     align-items: center;
   }
 
@@ -14,8 +13,6 @@
     padding-right: 0px;
     width: 27%;
     margin-left: 0px;
-=======
->>>>>>> origin/new_release
   }
 
   body {
@@ -135,11 +132,8 @@ footer {
 
 .container {
     padding: 0.01em 16px;
-<<<<<<< HEAD
     padding-left: 0px;
     padding-right: 0px;
-=======
->>>>>>> origin/new_release
     justify-content: center;
     align-items: center;
 }

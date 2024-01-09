@@ -6,13 +6,9 @@ body {
   font-family:'Franklin Gothic Medium';
   padding: 0px;
   margin: 0px;
-<<<<<<< HEAD
   width: 100%;
   border-right-width: 0px;
   border-left-width: 0px;
-=======
-  
->>>>>>> origin/new_release
 }
 
 .titlecolor {
@@ -139,7 +135,6 @@ margin-bottom:0px;
   border-radius: 10px;
   }
 
-<<<<<<< HEAD
   .header {
     background-color: black;
     margin-right: 0px;
@@ -148,18 +143,6 @@ margin-bottom:0px;
     width: 100%;
     flex-wrap: wrap;
     box-sizing: inherit;
-=======
-  .borde3{
-    background-color: black;
-    border-left: 3px solid black;
-    border-top: 3px solid black;
-    border-right: 3px solid black;
-    border-bottom: 3px solid black;
-    width: 100%;
-    margin-right: 200px;
-    padding-left: 0px;
-    padding-right: 0px;
->>>>>>> origin/new_release
   }
 
   .borde4{
@@ -384,13 +367,8 @@ footer {
   /* position:relative; */
   width: fit-content;
   min-height: 50px;
-<<<<<<< HEAD
   max-width: 70%;
   max-height: 170px;
-=======
-  max-width: 100%;
-  max-height: 200px;
->>>>>>> origin/new_release
   border-radius: 10px;
   padding: 10px;
 }
@@ -589,9 +567,5 @@ text-decoration: none;
 .btn-card:hover {
 background-color: lightsteelblue;
 color: inherit;
-<<<<<<< HEAD
-}
-=======
 }
 
->>>>>>> origin/new_release
