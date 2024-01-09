@@ -4,6 +4,15 @@
     padding-right: 0px;
     width: 100%;
     margin-left: 0px;
+    align-items: center;
+  }
+
+  .borde45{
+    border-top: 1px solid black;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 27%;
+    margin-left: 0px;
   }
 
   body {
@@ -123,6 +132,8 @@ footer {
 
 .container {
     padding: 0.01em 16px;
+    padding-left: 0px;
+    padding-right: 0px;
     justify-content: center;
     align-items: center;
 }
