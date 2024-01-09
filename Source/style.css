@@ -6,7 +6,9 @@ body {
   font-family:'Franklin Gothic Medium';
   padding: 0px;
   margin: 0px;
-  
+  width: 100%;
+  border-right-width: 0px;
+  border-left-width: 0px;
 }
 
 .titlecolor {
@@ -61,18 +63,15 @@ text-decoration: none;
 
 .botton-group{
   align-items: center;
-  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .center{
-  padding: 10px;
+  padding-bottom: 10px;
   margin: auto;
   width: 100%;
-}
-
-.botton-group .botao{
-margin-left: 190px;
-margin-right: 190px;
 }
 
 .botao{
@@ -136,16 +135,14 @@ margin-bottom:0px;
   border-radius: 10px;
   }
 
-  .borde3{
+  .header {
     background-color: black;
-    border-left: 3px solid black;
-    border-top: 3px solid black;
-    border-right: 3px solid black;
-    border-bottom: 3px solid black;
-    width: 100%;
-    margin-right: 200px;
+    margin-right: 0px;
     padding-left: 0px;
     padding-right: 0px;
+    width: 100%;
+    flex-wrap: wrap;
+    box-sizing: inherit;
   }
 
   .borde4{
@@ -370,8 +367,8 @@ footer {
   /* position:relative; */
   width: fit-content;
   min-height: 50px;
-  max-width: 100%;
-  max-height: 200px;
+  max-width: 70%;
+  max-height: 170px;
   border-radius: 10px;
   padding: 10px;
 }
@@ -426,3 +423,149 @@ footer {
       overflow: hidden;
       text-overflow: ellipsis;
 }
+
+
+
+
+.cardBox {
+  display:block;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 400px;
+  max-height: fit-content;
+}
+
+
+
+
+.btn-card {
+  background-color: black;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.black-ground .cardBox {
+  background-color: white;
+  color: black;
+}
+
+
+.btn-card:hover {
+  background-color: inherit;
+  color: inherit;
+}
+
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: left;
+  align-items: center;
+}
+
+
+#logo {
+  font-size: 1.7em;
+}
+
+
+
+
+section.cardBox {
+  background-color: white;
+  color: black;
+}
+
+
+.card-profile {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+margin: auto;
+text-align: center;
+font-family: arial;
+background-color: #fff;
+border-radius: 8px;
+padding: 20px;
+max-width: inherit;
+max-height: 300px;
+}
+
+
+.card-profile .title {
+color: grey;
+font-size: 18px;
+}
+
+
+.card-profile button {
+border: none;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+
+.card-profile a {
+text-decoration: none;
+font-size: 22px;
+color: black;
+}
+
+
+.card-profile button:hover, a:hover {
+opacity: 0.7;
+}
+
+
+.profile-photo {
+  text-align: center;
+  border-radius:8px;
+  max-width:auto;
+  max-height:auto;
+}
+
+
+#mural{
+  height: 100%;
+  padding-bottom: 80px;
+}
+
+
+#mural .wide.title{
+margin-bottom: 50px;
+}
+
+
+
+
+.btn-card {
+background-color: inherit;
+color: #fff;
+padding: 8px 16px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-weight: bold;
+text-decoration: none;
+}
+
+
+.btn-card:hover {
+background-color: lightsteelblue;
+color: inherit;
+}
+
