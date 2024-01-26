@@ -133,9 +133,6 @@ margin-bottom:0px;
     padding-right: 14px;
     width: 10%;
   border-radius: 10px;
-    height: 95px;
-    display: flex;
-    align-content: flex-end;
   }
 
   .header {
@@ -146,6 +143,9 @@ margin-bottom:0px;
     width: 100%;
     flex-wrap: wrap;
     box-sizing: inherit;
+    height: 95px;
+    display: flex;
+    align-content: flex-end;
   }
 
   .borde4{
