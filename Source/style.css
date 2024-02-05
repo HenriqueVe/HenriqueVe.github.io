@@ -329,13 +329,14 @@ section.cardBox {
 
 
 .card-profile {
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 margin: auto;
 text-align: center;
 font-family: arial;
 background-color: #fff;
 border-radius: 8px;
-padding: 20px;
+padding-top: 5px;
+padding-left: 20px;
+padding-right: 20px;
 max-width: inherit;
 max-height: 300px;
 }
